@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "https://jats.nlm.nih.gov/nlm-dtd/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" specific-use="SMUR" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher">EGUsphere</journal-id>
+<journal-title-group>
+<journal-title>EGUsphere</journal-title>
+<abbrev-journal-title abbrev-type="publisher">EGUsphere</abbrev-journal-title>
+<abbrev-journal-title abbrev-type="nlm-ta">EGUsphere</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">1680-7375</issn>
+<publisher><publisher-name>Copernicus Publications</publisher-name>
+<publisher-loc>Göttingen, Germany</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.5194/egusphere-2023-2044</article-id>
+<title-group>
+<article-title>pH regulates the formation of organosulfates and inorganic sulfate from organic peroxides reaction with dissolved SO&lt;sub&gt;2&lt;/sub&gt; in aquatic media</article-title>
+</title-group>
+<contrib-group><contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Du</surname>
+<given-names>Lin</given-names>
+<ext-link>https://orcid.org/0000-0001-8208-0558</ext-link>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lv</surname>
+<given-names>Xiaofan</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lily</surname>
+<given-names>Makroni</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname>
+<given-names>Kun</given-names>
+<ext-link>https://orcid.org/0000-0003-2970-037X</ext-link>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Tsona Tchinda</surname>
+<given-names>Narcisse</given-names>
+<ext-link>https://orcid.org/0000-0002-6023-1850</ext-link>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+</contrib>
+</contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Environment Research Institute, Shandong University, Qingdao, 266237, China</addr-line>
+</aff>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>09</month>
+<year>2023</year>
+</pub-date>
+<volume>2023</volume>
+<fpage>1</fpage>
+<lpage>18</lpage>
+<permissions>
+<copyright-statement>Copyright: &#x000a9; 2023 Lin Du et al.</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="open-access">
+<license-p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this licence, visit <ext-link ext-link-type="uri"  xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+</license>
+</permissions>
+<self-uri xlink:href="https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2044/">This article is available from https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2044/</self-uri>
+<self-uri xlink:href="https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2044/egusphere-2023-2044.pdf">The full text article is available as a PDF file from https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2044/egusphere-2023-2044.pdf</self-uri>
+<abstract>
+<p>&lt;p&gt;Organic peroxides (OPs) are an important component of dissolved organic matter (DOM), detected in various aquatic media. Despite their unique functions as redox agents in water ecosystems, the complete mechanisms and factors controlling their transformation are not explicitly established. Here, we evaluate the pH effect on the aqueous-phase reaction of three selected OPs (methyl hydroperoxide (MHP), peracetic acid (PAA) and benzoyl peroxide (BZP)) with dissolved SO&lt;sub&gt;2&lt;/sub&gt;. Results show that due to the presence of hydroperoxyl group in their structures, MHP and PAA preferably form inorganic sulfate and organosulfate (methyl sulfate for MHP and acetyl sulfate for PAA) depending on the pH, while BZP exclusively forms organosulfate (benzoyl sulfate) in the pH range investigated. Moreover, it is seen that the ability for PAA to form inorganic sulfate relative to organosulfate is more pronounced, which is supported by a previous experimental observation. The effective rate constants of the transformation of these peroxides within pH 1 &amp;ndash; 10 and 240 K &amp;ndash; 340 K ranges exhibit positive pH and temperature dependencies, and BZP is seen to degrade more effectively than MHP and PAA. In addition to the pH impact, it is highlighted that the formation of organic and/or inorganic sulfate strongly depends on the nature of the substituents on the peroxy function. Namely, PAA and BZP are more reactive than MHP, which may be attributed to the electron-withdrawing effects of -C(O)R (R = -CH&lt;sub&gt;3&lt;/sub&gt; and -C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt; for PAA and BZP, respectively) substituents that activate the peroxy function. The results further indicate that the aqueous-phase degradation of OPs can adequately drive the change in the chemical composition of DOM, both in terms of organic and inorganic sulfate mass fractions.&lt;/p&gt;</p>
+</abstract>
+<counts><page-count count="18"/></counts>
+<funding-group>
+<award-group id="gs1">
+<funding-source>National Natural Science Foundation of China</funding-source>
+<award-id>22076099</award-id>
+</award-group>
+</funding-group>
+</article-meta>
+</front>
+<body/>
+<back>
+</back>
+</article>
