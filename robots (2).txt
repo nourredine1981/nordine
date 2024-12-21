@@ -1,0 +1,92 @@
+# Allow robots to index the entire site except some specified routes
+# rendered when site is visited with the default hostname
+# http://www.robotstxt.org/
+
+# ALLOW ROBOTS
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: tigerbot
+Disallow: /
+
+User-Agent: RepoLookoutBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: AhrefsSiteAudit
+Disallow: /
+
+User-Agent: ImagesiftBot 
+Disallow: /
+
+User-agent: OpenindexSpider
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: Buck
+Disallow: /
+
+User-agent: ExaleadCloudView
+Disallow: /
+
+User-agent: IonCrawl
+Disallow: /
+
+User-agent: ZoominfoBot
+Disallow: /
+
+User-agent: SeobilityBot
+Disallow: /
+
+User-agent: python-requests/2.27.1
+Disallow: /
+
+User-agent: LLM-jp-Crawler
+Disallow: /
+
+User-agent: *
+Crawl-delay: 10
+
+# disallow my account, cart, checkout pages
+Disallow: /shop/checkout/
+Disallow: /shop/cart/
+Disallow: /pyr_shop/my_accounts/
+Disallow: /shop/account/
+
+# Do not index session ID
+Disallow: /*?SID=
+Disallow: /*?
+Disallow: /*.rb$
+Disallow: /*.erb$
+
+# CVS, SVN directory and dump files
+Disallow: /*.CVS
+Disallow: /*.Zip$
+Disallow: /*.Svn$
+Disallow: /*.Idea$
+Disallow: /*.Sql$
+Disallow: /*.Tgz$
+
+

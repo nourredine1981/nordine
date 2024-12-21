@@ -1,0 +1,24 @@
+# All robots will spider the domain
+User-agent: * 
+# Disallow directory /bin/ 
+Disallow: /bin/ 
+# Disallow *.axd 
+Disallow: /*.axd$
+Disallow: /*.axd?
+Disallow: /our-team/vcard/
+Disallow: /search
+Disallow: /contact-list
+Disallow: /marketingpageguids
+Disallow: /dataservices
+Disallow: /extranets/incomingnet
+Disallow: /extranets/alumninet
+#Disallow: /about-us/news/details*?
+#Disallow: /about-us/publications/details*?
+Sitemap: https://www.stblaw.com/sitemap.xml
+Sitemap: https://www.stblaw.com/sitemap-directory.xml 
+
+User-Agent: LinkedInBot
+Allow: /about-us/news/view/*
+Allow: /about-us/publications/view/*
+Allow: /about-us/news/details*?
+Allow: /about-us/publications/details*?

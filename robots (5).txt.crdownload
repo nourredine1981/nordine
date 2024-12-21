@@ -1,0 +1,69 @@
+# Robots.txt file created by http://www.webtoolcentral.com
+# For domain: http://www.jiscmail.ac.uk
+
+# All robots will spider the domain
+User-agent: *
+Disallow:
+
+# Disallow directory /bedework/
+User-agent: *
+Disallow: /bedework/
+
+# Disallow directory /cgi-bin/
+# User-agent: *
+# Disallow: /cgi-bin/
+
+# Disallow directory /css/
+User-agent: *
+Disallow: /css/
+
+# Disallow directory /files/
+User-agent: *
+Disallow: /files/
+
+# Disallow directory /images/
+User-agent: *
+Disallow: /images/
+
+# Disallow directory /js/
+User-agent: *
+Disallow: /js/
+
+# Disallow directory /jbookmark/
+User-agent: *
+Disallow: /jbookmark/
+
+# Disallow directory /lists/
+# User-agent: *
+# Disallow: /lists/
+
+# Disallow directory /scripts/
+User-agent: *
+Disallow: /scripts/
+
+# Disallow directory /secure/
+User-agent: *
+Disallow: /secure/
+
+# Disallow directory /Shibboleth.sso/
+User-agent: *
+Disallow: /Shibboleth.sso/
+
+# Disallow directory /webeditor/
+User-agent: *
+Disallow: /webeditor/
+
+
+# Disallow directory /mobile/
+User-agent: *
+Disallow: /mobile/
+
+# Disallow directory /mobile/
+User-agent: *
+Disallow: /mobiletest/
+
+# Disallow crawling of post re incident 09/08/2024
+User-agent: *
+Disallow: /cgi-bin/wa-jisc.exe?A2=ind2408&L=ARCAPG&O=D&P=1200
+Disallow: /cgi-bin/wa-jisc.exe?A2=ind2408&L=ARCAPG&O=D&P=665
+Disallow: /cgi-bin/wa-jisc.exe?A1=ind2408&L=ARCAPG
