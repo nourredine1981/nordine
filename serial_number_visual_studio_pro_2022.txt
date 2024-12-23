@@ -1,0 +1,112 @@
+Microsoft Visual Studio Professional 2022
+Version 17.12.3
+VisualStudio.17.Release/17.12.3+35527.113
+Microsoft .NET Framework
+Version 4.8.09037
+
+Version installée : Professional
+
+Visual C++ 2022   00482-10000-00261-AA386
+Microsoft Visual C++ 2022
+
+Adaptateur de test pour Boost.Test   1.0
+Permet d'utiliser les outils de test de Visual Studio avec des tests unitaires écrits pour Boost.Test. Les conditions d'utilisation et les mentions tierces sont disponibles dans le répertoire d'installation de l'extension.
+
+Adaptateur de test pour Google Test   1.0
+Active l'utilisation des outils de test de Visual Studio avec les tests unitaires écrits pour Google Test. Les conditions d'utilisation et les notifications tierces sont disponibles dans le répertoire d'installation de l'extension.
+
+ADL Tools Service Provider   1.0
+This package contains services used by Data Lake tools
+
+ASA Service Provider   1.0
+
+ASP.NET and Web Tools   17.12.178.10385
+ASP.NET and Web Tools
+
+Azure Data Lake Tools for Visual Studio   2.6.5000.0
+Microsoft Azure Data Lake Tools for Visual Studio
+
+Azure Functions and Web Jobs Tools   17.12.178.10385
+Azure Functions and Web Jobs Tools
+
+Azure Stream Analytics Tools for Visual Studio   2.6.5000.0
+Microsoft Azure Stream Analytics Tools for Visual Studio
+
+Common Azure Tools   1.10
+Provides common services for use by Azure Mobile Services and Microsoft Azure Tools.
+
+Cookiecutter   17.0.24269.5
+Fournit des outils pour rechercher, instancier et personnaliser des modèles au format cookiecutter.
+
+Dotfuscator Community Edition   6.5.3+7f0b0a9d18
+PreEmptive Protection - Dotfuscator CE
+
+GitHub Copilot   17.12.38.29086
+GitHub Copilot est un programmeur de paires d’intelligence artificielle qui vous permet d’écrire du code plus rapidement et avec moins de travail.
+
+IncrediBuild Build Acceleration   1.6.0.7
+IncrediBuild effectively reduces compilation and development times by up to 90%.
+
+Microsoft Azure Hive Query Language Service   2.6.5000.0
+Language service for Hive query
+
+Microsoft Azure Stream Analytics Language Service   2.6.5000.0
+Language service for Azure Stream Analytics
+
+Microsoft Azure Tools pour Visual Studio   2.9
+Prise en charge des projets Azure Cloud Services
+
+Microsoft JVM Debugger   1.0
+Provides support for connecting the Visual Studio debugger to JDWP compatible Java Virtual Machines
+
+Node.js Tools   1.5.60927.1 Commit Hash:34ed3f8d94747ae6aeaeadb9ccb1dd51411eba1a
+Ajoute la prise en charge du développement et du débogage d'applications Node.js dans Visual Studio
+
+Oracle Developer Tools for Visual Studio   23.6.0.0
+Oracle Developer Tools for Visual Studio
+
+Outils Azure App Service v3.0.0   17.12.178.10385
+Outils Azure App Service v3.0.0
+
+Outils C#   4.12.0-3.24572.7+dfa7fc6bdea31a858a402168384192b633c811fa
+Composants C# utilisés dans l'IDE. Selon votre type de projet et vos paramètres, une version différente du compilateur peut être utilisée.
+
+Outils et frameworks web ASP.NET 2012   17.12.178.10385
+Pour plus d'informations, visitez https://www.asp.net/
+
+Outils TypeScript   17.0.30918.2001
+Outils TypeScript pour Microsoft Visual Studio
+
+Outils Visual Basic   4.12.0-3.24572.7+dfa7fc6bdea31a858a402168384192b633c811fa
+Composants Visual Basic utilisés dans l'IDE. Selon votre type de projet et vos paramètres, une version différente du compilateur peut être utilisée.
+
+Projet   1.0
+Informations sur mon package
+
+Python - Prise en charge du profilage   17.0.24269.5
+Prise en charge du profilage pour les projets Python.
+
+Python avec Pylance   17.0.24269.5
+Fournit IntelliSense, des projets, des modèles, le débogage, des fenêtres interactives et du support pour les développeurs Python.
+
+Razor (ASP.NET Core)   17.12.3.2457601+b5256abf658352440e61aa1372bbc0798e9ceb7d
+Fournit des services de langage pour ASP.NET Core Razor.
+
+SQL Server Analysis Services   16.0.20820.0
+Concepteur Microsoft SQL Server Analysis Services 
+Version 16.0.20820.0
+
+SQL Server Data Tools   17.12.83.3
+Microsoft SQL Server Data Tools
+
+SsmsVsIntegration   1.0
+Informations sur mon package
+
+ToolWindowHostedEditor   1.0
+Hosting json editor into a tool window
+
+Visual F# Tools   17.12.0-beta.24501.1+19610c0b654766eec49d044cb97ca6eaa2a63d16
+Microsoft Visual F# Tools
+
+Visual Studio IntelliCode   2.2
+Développement assisté par intelligence artificielle pour Visual Studio.
