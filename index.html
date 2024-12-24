@@ -256,7 +256,7 @@
 
 </head>
 <body><br><br>Éditorial - Zaher Nourredine<br><br><ul><h1>Dans l'aube de 2025, l'espoir renaît, Des rêves nouveaux, nos cœurs s'éveillent.<h1>
-<div class="rss-feed">https://rss.app/feeds/ZIuaxS46vlgGnqFZ.xml </div>
+<script> async function fetchRSSFeed() { const response = await fetch('https://rss.app/feeds/ZIuaxS46vlgGnqFZ.xml'); const text = await response.text(); const parser = new DOMParser(); const xml = parser.parseFromString(text, 'application/xml'); const items = xml.querySelectorAll('item'); let html = ''; items.forEach(item => { const title = item.querySelector('title').textContent; const description = item.querySelector('description').textContent; const link = item.querySelector('link').textContent; html += ` <div class="rss-item"> <h3><a href="${link}" target="_blank">${title}</a></h3> <p>${description}</p> </div> `; }); document.getElementById('rss-feed').innerHTML = html; } fetchRSSFeed(); </script>
 	<ul>
     <li> <a href="https://nourredine1981.github.io/vk">Nordine 1 </a></li>
     <li><a href="https://nourredine1981.github.io/russia_vk/">Nordine 2 </a></li><h1>Zaher Nourredine GitHub Profile</h1> 
