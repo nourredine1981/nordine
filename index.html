@@ -240,11 +240,7 @@
 
 
 
-
-<style> .rss-feed { display: flex; flex-direction: row; /* Display items in a row */ flex-wrap: wrap; /* Allow items to wrap to next line if necessary */ gap: 20px; /* Space between items */ } .rss-item { flex: 1; min-width: 200px; /* Minimum width for each item */ margin-bottom: 20px; } .rss-item h3 { margin: 0; font-size: 14px; /* Smaller font size */ } .rss-item p { margin: 5px 0 0; font-size: 12px; /* Smaller font size */.rss-feed { max-width: 5px; margin: 0 auto; background-color: #fff; padding: 0px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } .rss-item { margin-bottom: 2px; width: 10%; /* Make sure each RSS item stretches to the full width */ } .rss-item h3 { margin: 0; font-size: 14px; /* Smaller font size */ } .rss-item p { margin: 5px 0 0; font-size: 12px; /* Smaller font size */ }.rss-item { margin-bottom: 20px; } .rss-item h3 { margin: 0; font-size: 14px; /* Smaller font size */ } .rss-item p { margin: 5px 0 0; font-size: 12px; /* Smaller font size */ } </style>
-
-
-
+<style>.rss-feed { display: flex; flex-direction: row; /* Display items in a row */ flex-wrap: wrap; /* Allow items to wrap to next line if necessary */ gap: 20px; /* Space between items */ max-width: 800px; /* Constrain feed width */ margin: 0 auto; background-color: #fff; padding: 0; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } .rss-item { flex: 1; min-width: 100px; /* Minimum width for each item */ max-width: 200px; /* Maximum width for each item */ width: 10%; /* Proportional width */ margin-bottom: 2px; } .rss-item h3 { margin: 0; font-size: 14px; /* Smaller font size */ } .rss-item p { margin: 5px 0 0; font-size: 12px; /* Smaller font size */ } </style>
 	
     </head>
 
