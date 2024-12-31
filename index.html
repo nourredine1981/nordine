@@ -240,7 +240,19 @@
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }																																																																																																																																																																																																																																																																																																																																																																															       
+        }	
+			 .banner {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            background: #333;
+            padding: 10px;
+        }
+        .banner img {
+            margin-right: 10px;
+            border: 2px solid #444;
+            border-radius: 5px;
+        }
         .section { margin-bottom: 40px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
         .section h2 { margin-top: 0; }
     </style>
@@ -250,11 +262,56 @@
 	
 
 
-<body>
+<body><p align="center"><img src=3./kaboul.jpeg"></p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<hr><hr>
+<hr><hr><h1 style="text-align: center;">Bannière d'images Gaza</h1>
+    <div class="banner" id="banner"></div>
+
+    <script>
+        // Configuration des images
+        const banner = document.getElementById("banner");
+        const totalImages = 18; // Nombre total d'images
+        const imgBaseName = "gaza"; // Base du nom des images
+
+        for (let i = 1; i <= totalImages; i++) {
+            // Créer un élément image
+            const img = document.createElement("img");
+            img.src = `${imgBaseName}${i}.jpg`; // Exemple: gaza1.jpg, gaza2.jpg, ...
+            img.alt = `Image ${i}`;
+            img.width = 100; // Largeur 100 px
+            img.height = 100; // Hauteur 100 px
+
+            // Ajouter l'image à la bannière
+            banner.appendChild(img);
+        }
+    </script>
 	<a href="./lim.html">Entrez sur le nouveau site</a><br><br><hr><hr>
 	<hr> <h1>INTELIGENCIA ARTIFICIAL by Nourredine </h1><br><br> <p>
+<h1 style="text-align: center;">Bannière d'images Gaza (19 à 30)</h1>
+    <div class="banner" id="banner"></div>
+
+    <script>
+        // Configuration des images
+        const banner = document.getElementById("banner");
+        const startImage = 19; // Première image
+        const endImage = 30; // Dernière image
+        const imgBaseName = "gaza"; // Base du nom des images
+
+        for (let i = startImage; i <= endImage; i++) {
+            // Créer un élément image
+            const img = document.createElement("img");
+            img.src = `${imgBaseName}${i}.jpg`; // Exemple: gaza19.jpg, gaza20.jpg, ...
+            img.alt = `Image ${i}`;
+            img.width = 100; // Largeur 100 px
+            img.height = 100; // Hauteur 100 px
+
+            // Ajouter l'image à la bannière
+            banner.appendChild(img);
+        }
+    </script>
+
+	<HR><HR>
+		
 		<ol><li>site:*.gov.il zah nor</li>
 		<li><a href="#">site:*.gov.il zaher no</a><br></li>
 			<li><div class="hlcw0c" style="margin-bottom: 44px; font-family: Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; background-color: initial; color: initial; text-decoration-color: initial;">
