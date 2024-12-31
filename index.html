@@ -402,7 +402,7 @@
   background: var(--color);
   border-radius: 50%;
   box-shadow: 0 0 20px var(--color), 0 0 60px var(--color  );
-}
+}#clock { font-size: 2em; }
 	 </style>
 </head>
 
@@ -410,8 +410,8 @@
 	
 
 
-<body>
-
+<body><br><br><br><br>
+<div id="clock"></div> <script> function updateClock() { const now = new Date(); const hours = now.getHours().toString().padStart(2, '0'); const minutes = now.getMinutes().toString().padStart(2, '0'); const seconds = now.getSeconds().toString().padStart(2, '0'); document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`; } setInterval(updateClock, 1000); updateClock(); </script>
 	
 	<b><i>Traduction du site google transalte</i></b>
 	<ul>
