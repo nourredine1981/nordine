@@ -18,6 +18,52 @@
 </script>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
  <style>
+	 .carousel {
+  width: 600px;
+  overflow: hidden;
+  border: 5px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#825CFF, #825CFF),
+                    linear-gradient(90deg, #ff7eb3, #ff758c, #825CFF);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrap {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 250px;
+  justify-items: stretch;
+  animation: slide 15s linear infinite;
+  animation-play-state: running;
+}
+
+.wrap img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.wrap img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.8), 0 4px 20px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrap:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  to {
+    translate: calc(-4 * 250px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -434,8 +480,9 @@ Partition de telepatía par Kali Uchis. Partitions arrangées pour Piano/Chant/A
 				 
 				 <hr><HR><HR><hr><h1 style="text-align: center;">Bannière d'images Gaza</h1>
 			 
-    <div class="banner" id="banner"></div>
-
+    
+<div class="carousel" id="banner"></div>
+        <div class="wrap" id="banner" >
     <script>
         // Configuration des images
         const banner = document.getElementById("banner");
@@ -454,7 +501,7 @@ Partition de telepatía par Kali Uchis. Partitions arrangées pour Piano/Chant/A
             banner.appendChild(img);
         }
     </script>
-
+	</div>
 <HR><HR>
 
 <a href="./17-27-croissance-mondiale.pdf"> <div id="text">La Saint-Sylvestre, également connue sous le nom de réveillon du Nouvel An, est une célébration annuelle qui marque la transition de l'ancien au nouveau calendrier. Elle trouve son origine dans des traditions séculaires. Elle tire son nom de Sylvestre Ier, pape de l'Église catholique au IVe siècle.</div> <script> function changeColor() { const colors = ["red", "blue", "green", "purple", "orange", "pink"]; const textElement = document.getElementById("text"); const randomColor = colors[Math.floor(Math.random() * colors.length)]; textElement.style.color = randomColor; } setInterval(changeColor, 60000); // Change color every minute (60000 milliseconds) </script></a><br>
