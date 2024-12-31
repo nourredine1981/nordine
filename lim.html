@@ -231,7 +231,25 @@
 
 
 
+<h1 style="text-align: center;">Bannière d'images Gaza </h1>
+    <div class="banner" id="banner"></div>
 
+    <script>
+        const banner = document.getElementById("banner");
+        const startImage = 19;
+        const endImage = 30;
+        const imgBaseName = "gaza"; // Base du nom des images (gaza19, gaza20,...)
+
+        for (let i = startImage; i <= endImage; i++) {
+            const img = document.createElement("img");
+            img.src = `${imgBaseName}${i}.jpeg`; // Changez ici l'extension en .jpeg
+            img.alt = `Image ${i}`;
+            img.onerror = () => {
+                console.error(`Image ${img.src} failed to load.`); // Affiche une erreur dans la console si l'image échoue à se charger
+            };
+            banner.appendChild(img);
+        }
+    </script>
 
 
 
