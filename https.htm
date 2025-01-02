@@ -8029,7 +8029,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<td height="539">&nbsp;</td>
 				<td height="539">&nbsp;</td>
 				<td height="539">&nbsp;</td>
-			</tr>
+			</tr><link href="https://pyscript.net/alpha/pyscript.css" rel="stylesheet"></link> <script defer="defer" src="https://pyscript.net/alpha/pyscript.js"></script> 
+
+
+<py-script>from datetime import datetime
+# requires python-dateutil
+from dateutil.parser import parse
+from dateutil import tz
+
+def handle_utc(datestring, direction="to_local", to_zone='America/New_York', from_zone='UTC'):
+    """ a wrapper for dateutil.parse that helps convert UTC to/from local 
+    timezone ISO8601-formatted strings.
+
+    @param string datestring: ISO 8601 formatted datetime string
+
+    See these links for more info:
+    http://stackoverflow.com/questions/4770297/python-convert-utc-datetime-string-to-local-datetime
+    http://stackoverflow.com/questions/969285/how-do-i-translate-a-iso-8601-datetime-string-into-a-python-datetime-object
+    """
+
+    from_zone = tz.gettz(from_zone)
+    to_zone = tz.gettz(to_zone)
+
+    # TODO: Auto-detect zones:
+    #from_zone = tz.tzutc()
+    #to_zone = tz.tzlocal()
+
+    # parse the ISO 8601-formatted, UTC (zulu) string into a datetime object.
+    # e.g., '2017-03-03T17:00:00Z'
+    t = parse(datestring)
+
+    if direction == "to_local" or direction == "from_utc":
+        # Tell the datetime object that it's in UTC time zone since
+        # datetime objects are 'naive' by default
+        t = t.replace(tzinfo=from_zone)
+
+        # Convert time zone
+        tc = t.astimezone(to_zone)
+
+        # return result as ISO 8601-formatted string, now with UTC offset
+        # e.g., '2017-03-03T12:00:00-05:00'
+        return tc.isoformat()
+
+    elif direction == "to_utc" or direction == "from_local":
+
+        t = t.replace(tzinfo=to_zone)
+
+        # Convert time zone
+        tc = t.astimezone(from_zone)
+
+        return tc.isoformat()
+
+    else:
+        print("incorrect datetime conversion direction string (must be 'to_utc' or 'to_local')")
+        return None
+        </py-script>
+
+
 </table><!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL52ZWJB"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
