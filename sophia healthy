@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 2</title>
+</head>
+
+<frameset rows="221,*,64">
+	<frame name="top" scrolling="no" noresize target="contents" 
+ src="russia__arabe__espagnol___latin.htm">
+	<frameset cols="432,*">
+		<frame name="contents" target="main" src="acceuil.htm">
+		<frame name="main" src="https.htm">
+	</frameset>
+	<frame name="bottom" scrolling="no" noresize target="contents" 
+ src="new_page_6.htm">
+	<noframes>
+	<body>
+
+	<p>This page uses frames, but your browser doesn't support them.</p>
+
+	</body>
+	</noframes>
+</frameset>
+
+</html>
